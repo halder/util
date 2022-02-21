@@ -12,7 +12,7 @@ def parse_sql(sql_file, replacement=None):
     file.close()
 
     if replacement:
-        for dummy, repl in replacement.items()
+        for dummy, repl in replacement.items():
             query = query.replace(dummy, repl)
 
     return query
